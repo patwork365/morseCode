@@ -1,0 +1,30 @@
+*{
+padding:0;
+margin: 15px;
+text-align: center;
+}
+
+.container{
+    border: 2px solid black;
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+}
+.screen{
+    display:flex;
+    flex-direction:column;
+}
+    .inputval,
+    #outputval{
+        border: 2px solid black;
+         width:300px;
+        padding: 5px;
+        height:80px;
+        font-size: larger;
+    }
+
+    .add-button{
+        width:200px;
+        padding: 5px;
+        height:80px;
+    }
